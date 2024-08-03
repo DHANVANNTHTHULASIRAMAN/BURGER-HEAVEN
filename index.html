@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BURGER HAVEN</title>
+  <link rel="icon" type="png" href="./assets/burger-solid.svg">
+  <!--fontawsome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--css-->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-transparent py-2 ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./assets/iconlogo.png" class="img-fluid" width="50px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 ">
+          <li class="nav-item">
+            <a class="nav-link " href="#home"><b>HOME</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><b>ABOUT</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ambience"><b>AMBIENCE</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#new"><b>NEW LAUNCH</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#booking"><b>BOOKING</b></a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--hero-->
+  <section id="home" class=" text-center">
+    <h1 class="title"><b>BURGER HAVEN</b></h1>
+    <p class="title-quote"><b>"BITE INTO BLISS AT BURGER HEAVEN CAFE."</b></p>
+  </section>
+  <!--about-->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-5">
+          <h2 class="about-title">ABOUT US</h2>
+          <p class="about-content">
+
+            Welcome to BURGER HAVEN, your ultimate destination for mouth-watering burgers and a cozy dining experience.
+            At BURGER HAVEN, we believe in serving more than just food; we create memorable experiences with every bite.
+            Our menu features a diverse range of gourmet burgers made from the freshest ingredients, ensuring every meal
+            is a delightful treat. From classic favorites to innovative creations, there's something for everyone at
+            BURGER HAVEN. Join us for a delicious meal, friendly service, and a welcoming atmosphere that feels like
+            home. Come for the burgers, stay for the haven!</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="./assets/burger3.jpg" class="img-fluid w-75">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--new AMBIENCE-->
+  <section id="ambience" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="my-3 about-title text-center"><b>OUR SHOP</b></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/a1.jpg" class="d-block w-100" alt="ambience">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/a2.jpg" class="d-block w-100" alt="ambience">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/a3.jpg" class="d-block w-100" alt="ambience">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--new -->
+  <section class="py-5" id="new">
+    <div class="container" id="new">
+      <div class="row ">
+        <div class="col-md-12">
+          <h2 class="about-title text-center my-3"><b>NEW LAUNCH</b></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mt-4" >
+           <div class="inner">
+            <img src="./assets/burger1.jpg" class="card-img-top m-auto " alt="burger">
+           </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><b>BEEF BURGER</b></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-4" >
+            <div class="inner">
+              <img src="./assets/burger2.jpg" class="card-img-top m-auto " alt="burger">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><b>BEEF TANGY BURER</b></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-4" >
+           <div class="inner">
+             <img src="./assets/burger3.jpg" class="card-img-top m-auto " alt="burger">
+           </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><b>BEEF EXTRA SPICY BURGER</b></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--contact-->
+  <section class="book" id="booking">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="about-title text-center my-3"><b> PRE BOOKING</b></h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"><b>NAME</b></label>
+              <input type="text" class="form-control" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"><b>MOBILE NUMBER</b></label>
+              <input type="number" class="form-control" placeholder="ENTER YOUR MOBILE NUMBER" >
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"><b>EMAIL ADDDRESS</b></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ENTER YOUR EMAIL ADDRESS">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"><b>TIMING AND OTHER DETAILS</b></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="PLEASE ENTER YOUR PREFERRED TIME, TABLE CHOICE, NUMBER OF MEMBERS, AND ANY SPECIAL REQUESTS."></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--FOOTER-->
+  <footer class="footer text-center text-lg-start">
+    <div class="container p-4">
+        <div class="row">
+            <!-- About -->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4"><b>BURGER HAVEN</b></h5>
+                <p>Come and taste the best burgers in town! Our burgers are made with fresh ingredients and love. Join us for a delightful experience.</p>
+            </div>
+            <!-- Links -->
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4"><B>QUICK LINKS</B></h5>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#new">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#book">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Contact -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4"><B>CONTACT US</B></h5>
+                <ul class="list-unstyled mb-0">
+                    <li><i class="bi bi-geo-alt"></i><b>BURGER HEAVEN BIG STREET MUNJURPER VELLORE 632057</b></li>
+                    <li><i class="bi bi-phone"></i><b> +91 9876543210</b></li>
+                    <li><i class="bi bi-envelope"></i> <b>info@burgerheaven.com</b></li>
+                </ul>
+            </div>
+            <!-- Social Media -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4"><b>FOLLOW FOR MORE UPDATES</b></h5>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        &copy; 2024 Burger heaven Shop. All rights reserved.
+    </div>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
